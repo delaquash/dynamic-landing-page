@@ -38,15 +38,15 @@ function setByGreeting() {
 
     if (hour < 12) {
         // morning
-        document.body.style.backgroundImage = "url('../img/morning.jpg')";
+        document.body.style.backgroundImage = "url('https://images.pexels.com/photos/955656/pexels-photo-955656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')";
         greeting.textContent = 'Good Morning, Have a great day ahead';
     } else if (hour < 18) {
         // afternoon
-        document.body.style.backgroundImage = "url('../img/afternoon.jpg')";
+        document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2566581/pexels-photo-2566581.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)";
         greeting.textContent = 'Good afternoon, hope you have been having a good time';
     } else {
         // evening
-        document.body.style.backgroundImage = "url('../img/night.jpg' )";
+        document.body.style.backgroundImage = "url(https://images.pexels.com/photos/204366/pexels-photo-204366.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)";
         greeting.textContent = 'Good night, ensure you sleep well and be ready for the next day';
         document.body.style.color = 'white';
     }
